@@ -5,9 +5,10 @@
 }
 
 body {
-    margin: 0;
+    margin-top: 140px;
     padding: 0;
     min-height: 100vh;
+    background-color: #F8FAFD;
 
     display: flex;
     flex-direction: column;
@@ -150,4 +151,207 @@ img {
 
 .showingbox-button_img {
     margin-right: 10px;
+}
+
+/* main style */
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.section-left {
+    max-width: 20%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #b3b3b3;
+    min-height: 100vh;
+}
+
+.bookmark-title {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #424242;
+    font-weight: 600;
+}
+
+.bookmark-desc {
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+    font-size: 16px;
+    color: #1b1b1b;
+}
+
+.bookmark-list {
+    margin: 0;
+    padding: 20px 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 430px;
+    overflow-y: scroll;
+}
+
+
+.bookmark-list::-webkit-scrollbar {
+    display: none;
+}
+
+.bookmark-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8FAFD;
+    width: 200px;
+    height: 50px;
+    padding: 0px 4px;
+}
+
+.item-left {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.item-left-title {
+    font-size: 14px;
+    color: #1b1b1b;
+    margin: 0;
+    padding: 0;
+}
+
+.item-left-after {
+    margin: 0;
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+.item-right {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.item-right>a {
+    text-decoration: none;
+}
+
+.item-right>a:nth-child(2) {
+    margin-left: 8px;
+}
+
+.section-right {
+    max-width: 80%;
+}
+
+.bookcard-list{
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bookcard-item{
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height:480px;
+    box-shadow: 2px 2px 8px;
+    border-radius: 5px;
+}
+
+.itemImg{
+    padding:20px;
+    margin: 0;
+    background-color: #F8FAFD;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemImg-img{
+    width: 201px;
+    height: 202px;
+}
+
+.itemBody{
+    padding:13px;
+    background-color: #F8FAFD;
+    float: left;
+}
+.itemBody-title{
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0;
+}
+.itemBody-after{
+    margin: 0;
+    padding-top: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+}
+
+.itemBody-years{
+    margin: 0;
+    padding-top: 2px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+}
+
+.itembutton{
+    margin: 0;
+    padding:13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding:12px 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.yellow{
+    background-color: yellow;
+    color: dimgray;
+    width:49%;
+    margin-right:2px;
+}
+
+.info{
+    background-color:#F3F8FF;
+    color: rgb(0, 166, 255);
+    width: 49%;
+}
+.dimgrey{
+    background-color: dimgray;
+    color: #fff;
+    width: 100%;
+    margin-top: 10px;
 }

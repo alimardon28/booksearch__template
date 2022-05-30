@@ -8,6 +8,7 @@
     <title>Bookshelter</title>
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <div class="container header_container">
         <nav class="navbar">
@@ -26,14 +27,70 @@
           </div>
         </nav>
         <div class="showingbox">
-            <p class="showing-desc">Showing <span>18</span> Result(s)</p>
-            <button class="showingbox-button">
-                <img class="showingbox-button_img" src="./img/calendar.png" alt="">
-                Order by newest
-            </button>
+          <p class="showing-desc">Showing <span>18</span> Result(s)</p>
+          <button class="showingbox-button">
+            <img
+              class="showingbox-button_img"
+              src="./img/calendar.png"
+              alt=""
+            />
+            Order by newest
+          </button>
         </div>
       </div>
     </header>
+
+    <!-- main -->
+
+    <main class="main">
+      <section class="section-left">
+        <div class="container">
+          <div class="bookmark">
+            <h1 class="bookmark-title">Bookmarks</h1>
+            <p class="bookmark-desc">
+              If you don’t like to read, you haven’t found the right book
+            </p>
+          </div>
+          <ul class="bookmark-list">
+            <li class="bookmark-item">
+              <div class="item-left">
+                <h3 class="item-left-title">Python</h3>
+                <p class="item-left-after">David M. Beazley</p>
+              </div>
+              <div class="item-right">
+                <a href="#">
+                  <img src="img/book-open.png" alt="book-open img" />
+                </a>
+                <a href="#">
+                  <img src="./img/delete.png" alt="delete img" />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-right">
+        <div class="container">
+          <ul class="bookcard-list">
+            <li class="bookcard-item">
+              <div class="itemImg">
+                <img class="itemImg-img" src="./img/sun.png" alt="user" />
+              </div>
+              <div class="itemBody">
+                <h4 class="itemBody-title">Python</h4>
+                <p class="itemBody-after">David M. Beazley</p>
+                <span class="itemBody-years">2009</span>
+              </div>
+              <div class="itembutton">
+                <button class="button yellow">Bookmark</button>
+                <button class="button info">More Info</button>
+                <button class="button dimgrey">Read</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
   <script src="./js/app.js"></script>
 </html>
