@@ -6,6 +6,13 @@ const input = document.querySelector(".input");
 const logoutButton = document.querySelector(".logout-button");
 const result = document.querySelector(".result");
 const searchimg = document.querySelector(".searchimg");
+const main = document.querySelector(".main");
+const hamburger = document.querySelector(".hamburger");
+
+hamburger.addEventListener("click", () => {
+  main.classList.toggle("section-leftActive");
+  console.log("bosildii");
+});
 
 async function getData(query) {
   const request = await fetch(
