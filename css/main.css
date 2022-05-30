@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+img {
+    display: inline;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0px 20px;
+    max-width: 1500px;
+}
+
+.header {
+    margin: 0;
+    padding: 12px 0px 0px 0px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fffefe;
+    border-bottom: 2px solid #b3b3b3;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.navbar-link {
+    text-decoration: none;
+}
+
+.searchBox {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #efefef;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    background-color: #fff;
+    color: #424242;
+}
+
+.input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: #424242;
+    font-weight: 500;
+    width: 100%;
+}
+
+.searchimg {
+    width: 22px;
+
+}
+
+.logoutbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sun {
+    margin-right: 22px;
+    padding: 0;
+    width: 25px;
+    cursor: pointer;
+}
+
+.logout-button {
+    margin: 0;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: rgb(76, 76, 251);
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-button:active {
+    opacity: 0.8;
+}
+
+.showingbox {
+    margin: 0;
+    padding: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #b3b3b3;
+}
+
+.showing-desc {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.showing-desc>span {
+    font-weight: bold;
+}
+
+.showingbox-button {
+    margin: 0;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.showingbox-button:active {
+    opacity: 0.8;
+}
+
+.showingbox-button_img {
+    margin-right: 10px;
+}

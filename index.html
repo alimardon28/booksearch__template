@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Bookshelter</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header_container">
+        <nav class="navbar">
+          <a class="navbar-link" href="/#">
+            <img src="./img/logo.png" alt="bookshelter logo" class="icon" />
+          </a>
 
-</body>
-<script src="./js/app.js"></script>
+          <div class="searchBox">
+            <input class="input" type="text" placeholder="Search book ..." />
+            <img class="searchimg" src="./img/search.png" alt="" />
+          </div>
+
+          <div class="logoutbox">
+            <img class="sun" src="./img/sun.png" alt="sun icon" />
+            <button class="logout-button">Logout</button>
+          </div>
+        </nav>
+        <div class="showingbox">
+            <p class="showing-desc">Showing <span>18</span> Result(s)</p>
+            <button class="showingbox-button">
+                <img class="showingbox-button_img" src="./img/calendar.png" alt="">
+                Order by newest
+            </button>
+        </div>
+      </div>
+    </header>
+  </body>
+  <script src="./js/app.js"></script>
 </html>
