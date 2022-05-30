@@ -8,6 +8,7 @@ const result = document.querySelector(".result");
 const searchimg = document.querySelector(".searchimg");
 const main = document.querySelector(".main");
 const hamburger = document.querySelector(".hamburger");
+const info = document.querySelector(".info");
 
 hamburger.addEventListener("click", () => {
   main.classList.toggle("section-leftActive");
@@ -35,8 +36,8 @@ input.addEventListener("keypress", (e) => {
 function sendDisplay(book) {
   book?.map((item) => {
     console.log(item);
-    const books = document.createElement("div");
 
+    const books = document.createElement("div");
     books.innerHTML = `
 
         <li class="bookcard-item">
